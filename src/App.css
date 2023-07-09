@@ -1,4 +1,31 @@
+.App{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
 input{
+    text-align: center;
     display: block;
-    margin: 5px 5px;
+    margin: 5px 0px;
+    width: 200px;
+}
+.progress{
+height: 20px;
+width: 205px;
+border: 1px solid black;
+}
+#second{
+    height: 20px;
+    width: 33%;
+    background-color: aquamarine;
+}
+#third{
+    height: 20px;
+    width: 66%;
+    background-color: aquamarine;
+}
+.showDetails{
+    display: flex;
 }

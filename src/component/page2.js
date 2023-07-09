@@ -23,15 +23,16 @@ export default function Page2(){
       })
     }
 
-    return <div>
-      
+    return <div className="form">
+      <div className="progress"><div id="second">33% </div></div><br/>
+      <hr/>
       dob<input type="date" onChange={(e)=>{setDob(e.target.value)}} />
       gender<input onChange={(e)=>{setGender(e.target.value)}} />
       phone no
       <input type="number" onChange={(e)=>{setPhone(e.target.value)}} />
-      address
+      address<br/>
       <textarea onChange={(e)=>{setAddress(e.target.value)}}/>
-
+      <br/>
       <button onClick={next}>next</button>
     </div>
 }

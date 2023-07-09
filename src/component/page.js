@@ -24,8 +24,11 @@ import { useNavigate } from "react-router-dom";
     })
   }
 
-    return <div>
-      first name<input onChange={(e)=>{setFname(e.target.value)}} />
+    return <div className="form">
+      <div className="progress"><div>0%</div></div><br/>
+      <hr/>
+      first name
+      <input onChange={(e)=>{setFname(e.target.value)}} />
       last name<input onChange={(e)=>{setLname(e.target.value)}} />
       email<input onChange={(e)=>{setEmail(e.target.value)}} />
       password<input onChange={(e)=>{setPassword(e.target.value)}} />
