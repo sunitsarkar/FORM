@@ -4,16 +4,22 @@
     text-align: center;
     margin-top: 50px;
 }
-
+.form{
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: aliceblue;
+    width: 300px;
+    margin-left: 100px;
+}
 input{
     text-align: center;
     display: block;
-    margin: 5px 0px;
-    width: 200px;
+    margin: 5px 10px;
+    width: 280px;
 }
 .progress{
 height: 20px;
-width: 205px;
+width: 500px;
 border: 1px solid black;
 }
 #second{
@@ -28,4 +34,7 @@ border: 1px solid black;
 }
 .showDetails{
     display: flex;
+}
+.error{
+    color: red;
 }
