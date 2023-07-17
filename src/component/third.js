@@ -11,7 +11,7 @@ export default function Page2(){
     const location= useLocation();
 
     const next=()=>{
-      alert('submitted');
+      alert('Form successfully submitted');
       navigate('/four', {
         state: {
           ...location.state,
